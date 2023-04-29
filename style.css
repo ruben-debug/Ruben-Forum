@@ -2,6 +2,9 @@ body {
 	font-family: Arial, sans-serif;
 	margin: 0;
 	padding: 0;
+	background-image: url("https://preview.redd.it/msn-avatars-of-all-colors-v0-4k4l1oxd5uha1.png?width=640&crop=smart&auto=webp&s=270076f128206ac53c88df31540ea7976b9abdf2");
+  	background-repeat: repeat;
+ 	background-size: auto;
 }
 header {
 	background-color: #333;
