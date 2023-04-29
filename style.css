@@ -2,10 +2,16 @@ body {
 	font-family: Arial, sans-serif;
 	margin: 0;
 	padding: 0;
-	background-image: url("https://preview.redd.it/msn-avatars-of-all-colors-v0-4k4l1oxd5uha1.png?width=640&crop=smart&auto=webp&s=270076f128206ac53c88df31540ea7976b9abdf2");
+	background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/718smiley.svg/2048px-718smiley.svg.png');
   	background-repeat: repeat;
- 	background-size: auto;
+  	animation: scrollBackground 20s linear infinite;
 }
+
+@keyframes scrollBackground {
+  from {background-position: 0 0;}
+  to {background-position: -1000px -1000px;}
+}
+
 header {
 	background-color: #333;
 	color: #fff;
