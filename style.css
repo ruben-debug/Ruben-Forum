@@ -7,6 +7,9 @@ body {
   	animation: scrollBackground 20s linear infinite;
 	background-size: contain;
 	background-color: #080808;
+	color: #fff;
+	-webkit-text-stroke: 1px #000;
+	text-stroke: 1px #000;
 }
 
 @keyframes scrollBackground {
